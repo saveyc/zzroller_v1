@@ -1,0 +1,595 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.10.1.52143/W32 for ARM              22/May/2023  14:09:04 #
+# Copyright 2007-2010 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Exe\STM32 #
+#                    10C-EVAL.out                                             #
+#    Map file     =  E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\List\STM3 #
+#                    210C-EVAL.map                                            #
+#    Command line =  E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\can.o #
+#                     E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTR #
+#                    L_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\core #
+#                    _cm3.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLL #
+#                    ER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Ob #
+#                    j\flash.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_R #
+#                    OLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL #
+#                    \Obj\gpio.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP #
+#                    _ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EV #
+#                    AL\Obj\main.o E:\rollerconveyor\rollerconveyerv1.0.0.2\E #
+#                    XP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C- #
+#                    EVAL\Obj\misc.o E:\rollerconveyor\rollerconveyerv1.0.0.2 #
+#                    \EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210 #
+#                    C-EVAL\Obj\moto.o E:\rollerconveyor\rollerconveyerv1.0.0 #
+#                    .2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM32 #
+#                    10C-EVAL\Obj\startup_stm32f10x_md.o                      #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\stm32 #
+#                    f103.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLL #
+#                    ER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Ob #
+#                    j\stm32f10x_adc.o E:\rollerconveyor\rollerconveyerv1.0.0 #
+#                    .2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM32 #
+#                    10C-EVAL\Obj\stm32f10x_bkp.o                             #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\stm32 #
+#                    f10x_can.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ #
+#                    ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVA #
+#                    L\Obj\stm32f10x_dma.o E:\rollerconveyor\rollerconveyerv1 #
+#                    .0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\S #
+#                    TM3210C-EVAL\Obj\stm32f10x_exti.o                        #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\stm32 #
+#                    f10x_flash.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EX #
+#                    P_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-E #
+#                    VAL\Obj\stm32f10x_gpio.o E:\rollerconveyor\rollerconveye #
+#                    rv1.0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv #
+#                    5\STM3210C-EVAL\Obj\stm32f10x_it.o                       #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\stm32 #
+#                    f10x_pwr.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ #
+#                    ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVA #
+#                    L\Obj\stm32f10x_rcc.o E:\rollerconveyor\rollerconveyerv1 #
+#                    .0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\S #
+#                    TM3210C-EVAL\Obj\stm32f10x_rtc.o                         #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\stm32 #
+#                    f10x_spi.o E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ #
+#                    ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVA #
+#                    L\Obj\stm32f10x_tim.o E:\rollerconveyor\rollerconveyerv1 #
+#                    .0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\S #
+#                    TM3210C-EVAL\Obj\stm32f10x_usart.o                       #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj\syste #
+#                    m_stm32f10x.o -o E:\rollerconveyor\rollerconveyerv1.0.0. #
+#                    2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM321 #
+#                    0C-EVAL\Exe\STM3210C-EVAL.out --map                      #
+#                    E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL #
+#                    _SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\List\STM3 #
+#                    210C-EVAL.map --config E:\rollerconveyor\rollerconveyerv #
+#                    1.0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\ #
+#                    STM32F10x_FLASH.icf --semihosting --entry                #
+#                    __iar_program_start                                      #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xec
+  .intvec            ro code  0x08000000    0xec  startup_stm32f10x_md.o [1]
+                            - 0x080000ec    0xec
+
+"P1":                                     0x3e80
+  .text              ro code  0x080000ec   0xd54  gpio.o [1]
+  .text              ro code  0x08000e40   0x174  stm32f10x_gpio.o [1]
+  .text              ro code  0x08000fb4   0x844  moto.o [1]
+  .text              ro code  0x080017f8   0x1a2  stm32f10x_tim.o [1]
+  .text              ro code  0x0800199a    0x2e  copy_init3.o [5]
+  .text              ro code  0x080019c8    0xc4  main.o [1]
+  .text              ro code  0x08001a8c    0x24  FltCmpLe.o [4]
+  .text              ro code  0x08001ab0    0x24  FltCmpGe.o [4]
+  .text              ro code  0x08001ad4     0x6  ABImemclr4.o [5]
+  .text              ro code  0x08001ada    0x22  zero_init3.o [5]
+  .text              ro code  0x08001afc   0x7cc  can.o [1]
+  .text              ro code  0x080022c8   0x4f0  stm32f103.o [1]
+  .text              ro code  0x080027b8    0x1c  I32ToFlt.o [4]
+  .text              ro code  0x080027d4    0x4e  FltToDbl.o [4]
+  .text              ro code  0x08002824   0x1a2  DblMul.o [4]
+  .text              ro code  0x080029c8   0x246  DblDiv.o [4]
+  .text              ro code  0x08002c10    0x90  DblToFlt.o [4]
+  .text              ro code  0x08002ca0   0x414  flash.o [1]
+  .text              ro code  0x080030b4    0x38  ABImemset48.o [5]
+  .text              ro code  0x080030ec    0x70  ABImemcpy.o [5]
+  .text              ro code  0x0800315c     0xe  can.o [1]
+  .text              ro code  0x0800316c   0x526  stm32f10x_can.o [1]
+  .text              ro code  0x08003694   0x150  system_stm32f10x.o [1]
+  .text              ro code  0x080037e4   0x178  stm32f10x_rcc.o [1]
+  .text              ro code  0x0800395c    0x98  misc.o [1]
+  .text              ro code  0x080039f4   0x232  stm32f10x_adc.o [1]
+  .text              ro code  0x08003c28   0x174  stm32f10x_flash.o [1]
+  .text              ro code  0x08003d9c    0x48  stm32f10x_it.o [1]
+  .text              ro code  0x08003de4    0x2c  data_init3.o [5]
+  .iar.init_table    const    0x08003e10    0x24  - Linker created -
+  .text              ro code  0x08003e34    0x16  cmain.o [5]
+  .text              ro code  0x08003e4a     0x4  low_level_init.o [3]
+  .text              ro code  0x08003e4e     0x8  exit.o [3]
+  .text              ro code  0x08003e58     0xa  cexit.o [5]
+  .text              ro code  0x08003e64    0x14  exit.o [6]
+  .text              ro code  0x08003e78     0xc  cstartup_M.o [5]
+  .text              ro code  0x08003e84     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e88     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e8c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e90     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e94     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e98     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003e9c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ea0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ea4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ea8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003eac     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003eb0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003eb4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003eb8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ebc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ec0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ec4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ec8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ecc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ed0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ed4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ed8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003edc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ee0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ee4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ee8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003eec     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ef0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ef4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003ef8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003efc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f00     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f04     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f08     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f0c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f10     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f14     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f18     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f1c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f20     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f24     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f28     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f2c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f30     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f34     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f38     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f3c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f40     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f44     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f48     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f4c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08003f50     0x4  startup_stm32f10x_md.o [1]
+  Initializer bytes  ro data  0x08003f54    0x18  <for P2 s0>
+                            - 0x08003f6c  0x3e80
+
+"P2", part 1 of 3:                          0x18
+  P2 s0                       0x20000000    0x18  <Init block>
+    .data            inited   0x20000000    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000010     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20000014     0x2  moto.o [1]
+    .data            inited   0x20000016     0x2  moto.o [1]
+                            - 0x20000018    0x18
+
+"P2", part 2 of 3:                         0x508
+  .bss               zero     0x20000018   0x2bc  can.o [1]
+  .bss               zero     0x200002d4   0x12c  can.o [1]
+  .bss               zero     0x20000400    0x1c  flash.o [1]
+  .bss               zero     0x2000041c    0x1c  flash.o [1]
+  .bss               zero     0x20000438    0x18  moto.o [1]
+  .bss               zero     0x20000450    0x18  moto.o [1]
+  .bss               zero     0x20000468     0xc  can.o [1]
+  .bss               zero     0x20000474     0xc  gpio.o [1]
+  .bss               zero     0x20000480     0xc  gpio.o [1]
+  .bss               zero     0x2000048c     0xc  gpio.o [1]
+  .bss               zero     0x20000498     0xc  gpio.o [1]
+  .bss               zero     0x200004a4     0xc  gpio.o [1]
+  .bss               zero     0x200004b0     0xc  gpio.o [1]
+  .bss               zero     0x200004bc     0xc  gpio.o [1]
+  .bss               zero     0x200004c8     0xc  gpio.o [1]
+  .bss               zero     0x200004d4     0xc  gpio.o [1]
+  .bss               zero     0x200004e0     0xc  gpio.o [1]
+  .bss               zero     0x200004ec     0xc  gpio.o [1]
+  .bss               zero     0x200004f8     0x8  moto.o [1]
+  .bss               zero     0x20000500     0x8  moto.o [1]
+  .bss               zero     0x20000508     0x4  main.o [1]
+  .bss               zero     0x2000050c     0x2  can.o [1]
+  .bss               zero     0x2000050e     0x2  can.o [1]
+  .bss               zero     0x20000510     0x2  flash.o [1]
+  .bss               zero     0x20000512     0x2  gpio.o [1]
+  .bss               zero     0x20000514     0x2  moto.o [1]
+  .bss               zero     0x20000516     0x2  moto.o [1]
+  .bss               zero     0x20000518     0x1  can.o [1]
+  .bss               zero     0x20000519     0x1  can.o [1]
+  .bss               zero     0x2000051a     0x1  gpio.o [1]
+  .bss               zero     0x2000051b     0x1  gpio.o [1]
+  .bss               zero     0x2000051c     0x1  gpio.o [1]
+  .bss               zero     0x2000051d     0x1  gpio.o [1]
+  .bss               zero     0x2000051e     0x1  gpio.o [1]
+  .bss               zero     0x2000051f     0x1  main.o [1]
+                            - 0x20000520   0x508
+
+"P2", part 3 of 3:                        0x1000
+  CSTACK                      0x20000520  0x1000  <Block>
+    CSTACK           uninit   0x20000520  0x1000  <Block tail>
+                            - 0x20001520  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x508:
+          0x20000018  0x508
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18:
+          0x08003f54   0x18
+    1 destination range, total size 0x18:
+          0x20000000   0x18
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj: [1]
+    can.o                     2 010             1 018
+    flash.o                   1 044                58
+    gpio.o                    3 412               139
+    main.o                      196                 5
+    misc.o                      152
+    moto.o                    2 116        4       72
+    startup_stm32f10x_md.o      444
+    stm32f103.o               1 264
+    stm32f10x_adc.o             562
+    stm32f10x_can.o           1 318
+    stm32f10x_flash.o           372
+    stm32f10x_gpio.o            372
+    stm32f10x_it.o               72
+    stm32f10x_rcc.o             376       20       20
+    stm32f10x_tim.o             418
+    system_stm32f10x.o          336
+    -------------------------------------------------
+    Total:                   14 464       24    1 312
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+m7M_tl.a: [4]
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblToFlt.o                  144
+    FltCmpGe.o                   36
+    FltCmpLe.o                   36
+    FltToDbl.o                   78
+    I32ToFlt.o                   28
+    -------------------------------------------------
+    Total:                    1 322
+
+rt7M_tl.a: [5]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 112
+    ABImemset48.o                56
+    cexit.o                      10
+    cmain.o                      22
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init3.o                 44
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      342
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         16
+    Linker created                        36    4 096
+-----------------------------------------------------
+    Grand Total:             16 176       60    5 408
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08003e35         Code  Gb  cmain.o [5]
+ADC1_2_IRQHandler       0x08003ef1         Code  Wk  startup_stm32f10x_md.o [1]
+ADCPrescTable           0x20000010    0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_Cmd                 0x08003a9d   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_Configuration       0x080026d1   0x8a  Code  Gb  stm32f103.o [1]
+ADC_DeInit              0x080039f5   0x5c  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x08003adf   0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetConversionValue  0x08003bd1    0x6  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetFlagStatus       0x08003c11   0x16  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x08003ac1   0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x08003a51   0x4c  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x08003b0d   0xc4  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x08003ab7    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_SoftwareStartConvCmd
+                        0x08003af3   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x08003ad5    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_TempSensorVrefintCmd
+                        0x08003bd7   0x22  Code  Gb  stm32f10x_adc.o [1]
+APBAHBPrescTable        0x20000000   0x10  Data  Lc  stm32f10x_rcc.o [1]
+AddCanSendData2Queue    0x08001b17   0x3e  Code  Gb  can.o [1]
+BusFault_Handler        0x08003da3    0x2  Code  Gb  stm32f10x_it.o [1]
+CAN1_RX1_IRQHandler     0x08003efd         Code  Wk  startup_stm32f10x_md.o [1]
+CAN1_SCE_IRQHandler     0x08003f01         Code  Wk  startup_stm32f10x_md.o [1]
+CAN_ClearITPendingBit   0x080035fd   0x96  Code  Gb  stm32f10x_can.o [1]
+CAN_Configuration       0x0800255b   0xa4  Code  Gb  stm32f103.o [1]
+CAN_DeInit              0x0800316d   0x34  Code  Gb  stm32f10x_can.o [1]
+CAN_FIFORelease         0x08003513   0x12  Code  Gb  stm32f10x_can.o [1]
+CAN_FilterInit          0x080032b1   0xe2  Code  Gb  stm32f10x_can.o [1]
+CAN_ITConfig            0x080033dd   0x18  Code  Gb  stm32f10x_can.o [1]
+CAN_Init                0x080031a1  0x110  Code  Gb  stm32f10x_can.o [1]
+CAN_Receive             0x08003525   0xd8  Code  Gb  stm32f10x_can.o [1]
+CAN_StructInit          0x08003393   0x2e  Code  Gb  stm32f10x_can.o [1]
+CAN_Transmit            0x080033f5  0x11e  Code  Gb  stm32f10x_can.o [1]
+CSTACK$$Base            0x20000520          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001520          --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                        0x08003ed5         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08003ed9         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel3_IRQHandler
+                        0x08003edd         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08003ee1         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08003ee5         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel6_IRQHandler
+                        0x08003ee9         Code  Wk  startup_stm32f10x_md.o [1]
+DMA1_Channel7_IRQHandler
+                        0x08003eed         Code  Wk  startup_stm32f10x_md.o [1]
+DebugMon_Handler        0x08003da9    0x2  Code  Gb  stm32f10x_it.o [1]
+EXTI0_IRQHandler        0x08003ec1         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI15_10_IRQHandler    0x08003f49         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI1_IRQHandler        0x08003ec5         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI2_IRQHandler        0x08003ec9         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI3_IRQHandler        0x08003ecd         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI4_IRQHandler        0x08003ed1         Code  Wk  startup_stm32f10x_md.o [1]
+EXTI9_5_IRQHandler      0x08003f05         Code  Wk  startup_stm32f10x_md.o [1]
+FLASH_ClearFlag         0x08003d03    0x8  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ErasePage         0x08003c51   0x64  Code  Gb  stm32f10x_flash.o [1]
+FLASH_GetStatus         0x08003d0b   0x2c  Code  Gb  stm32f10x_flash.o [1]
+FLASH_IRQHandler        0x08003eb9         Code  Wk  startup_stm32f10x_md.o [1]
+FLASH_Lock              0x08003c3f   0x12  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ProgramHalfWord   0x08003cb5   0x4e  Code  Gb  stm32f10x_flash.o [1]
+FLASH_Unlock            0x08003c29   0x16  Code  Gb  stm32f10x_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08003d51   0x30  Code  Gb  stm32f10x_flash.o [1]
+GPIO_Configuration      0x08002375  0x1e6  Code  Gb  stm32f103.o [1]
+GPIO_Init               0x08000e41   0xcc  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08000f41   0x70  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08000f0d   0x16  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08000f29    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08000f23    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_WriteBit           0x08000f2f   0x12  Code  Gb  stm32f10x_gpio.o [1]
+Get_Adc                 0x0800275b   0x2c  Code  Gb  stm32f103.o [1]
+Get_Vcc_Volt            0x080019c9   0x34  Code  Gb  main.o [1]
+HardFault_Handler       0x08003d9f    0x2  Code  Gb  stm32f10x_it.o [1]
+I2C1_ER_IRQHandler      0x08003f29         Code  Wk  startup_stm32f10x_md.o [1]
+I2C1_EV_IRQHandler      0x08003f25         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_ER_IRQHandler      0x08003f31         Code  Wk  startup_stm32f10x_md.o [1]
+I2C2_EV_IRQHandler      0x08003f2d         Code  Wk  startup_stm32f10x_md.o [1]
+InitCanSendQueue        0x08001afd   0x1a  Code  Gb  can.o [1]
+LocalTime               0x20000508    0x4  Data  Gb  main.o [1]
+MOT_Error_Detection_Process
+                        0x08001303  0x15a  Code  Gb  moto.o [1]
+MemManage_Handler       0x08003da1    0x2  Code  Gb  stm32f10x_it.o [1]
+Mot_Set_Start_Cmd       0x08001069   0x64  Code  Gb  moto.o [1]
+Mot_Speed_Output_Handle
+                        0x080010cd  0x236  Code  Gb  moto.o [1]
+Mot_msg_init            0x08000fb5   0x3c  Code  Gb  moto.o [1]
+Mot_upload_all_state    0x0800145d  0x18a  Code  Gb  moto.o [1]
+NMI_Handler             0x08003d9d    0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Configuration      0x080025ff   0x34  Code  Gb  stm32f103.o [1]
+NVIC_Init               0x08003967   0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x0800395d    0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x080022c9   0x26  Code  Lc  stm32f103.o [1]
+NVIC_SetVectorTable     0x080039cd    0xc  Code  Gb  misc.o [1]
+PVD_IRQHandler          0x08003ead         Code  Wk  startup_stm32f10x_md.o [1]
+PWM_OUT_Init            0x08002633   0x9e  Code  Gb  stm32f103.o [1]
+PendSV_Handler          0x08003dab    0x2  Code  Gb  stm32f10x_it.o [1]
+RCC_ADCCLKConfig        0x080037e5   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080038d9   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08003919   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080038b9   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x080038f9   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080037f9   0xc0  Code  Gb  stm32f10x_rcc.o [1]
+RCC_IRQHandler          0x08003ebd         Code  Wk  startup_stm32f10x_md.o [1]
+RTCAlarm_IRQHandler     0x08003f4d         Code  Wk  startup_stm32f10x_md.o [1]
+RTC_IRQHandler          0x08003eb5         Code  Wk  startup_stm32f10x_md.o [1]
+Region$$Table$$Base     0x08003e10          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08003e34          --   Gb  - Linker created -
+SPI1_IRQHandler         0x08003f35         Code  Wk  startup_stm32f10x_md.o [1]
+SPI2_IRQHandler         0x08003f39         Code  Wk  startup_stm32f10x_md.o [1]
+SVC_Handler             0x08003da7    0x2  Code  Gb  stm32f10x_it.o [1]
+SetSysClock             0x080036e1    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x080036e9   0xe2  Code  Lc  system_stm32f10x.o [1]
+Set_Mot_Roll_Paras      0x08000ff1   0x78  Code  Gb  moto.o [1]
+SysTick_Config          0x080022ef   0x36  Code  Lc  stm32f103.o [1]
+SysTick_Handler         0x08003dad    0x8  Code  Gb  stm32f10x_it.o [1]
+SystemInit              0x08003695   0x4c  Code  Gb  system_stm32f10x.o [1]
+System_Setup            0x08002325   0x50  Code  Gb  stm32f103.o [1]
+TAMPER_IRQHandler       0x08003eb1         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_BRK_IRQHandler     0x08003f09         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_CC_IRQHandler      0x08003f15         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_TRG_COM_IRQHandler
+                        0x08003f11         Code  Wk  startup_stm32f10x_md.o [1]
+TIM1_UP_IRQHandler      0x08003f0d         Code  Wk  startup_stm32f10x_md.o [1]
+TIM2_IRQHandler         0x08003f19         Code  Wk  startup_stm32f10x_md.o [1]
+TIM3_IRQHandler         0x08003f1d         Code  Wk  startup_stm32f10x_md.o [1]
+TIM4_IRQHandler         0x08003f21         Code  Wk  startup_stm32f10x_md.o [1]
+TIM_ARRPreloadConfig    0x08001951   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08001935   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1Init             0x0800182f   0x78  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1PreloadConfig    0x0800196d   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x080018a7   0x86  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x0800197f   0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCompare1         0x08001993    0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_SetCompare2         0x08001997    0x4  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x080017f9   0x36  Code  Gb  stm32f10x_tim.o [1]
+Time_Update             0x08001a11   0x1c  Code  Gb  main.o [1]
+USART1_IRQHandler       0x08003f3d         Code  Wk  startup_stm32f10x_md.o [1]
+USART2_IRQHandler       0x08003f41         Code  Wk  startup_stm32f10x_md.o [1]
+USART3_IRQHandler       0x08003f45         Code  Wk  startup_stm32f10x_md.o [1]
+USBWakeUp_IRQHandler    0x08003f51         Code  Wk  startup_stm32f10x_md.o [1]
+USB_HP_CAN1_TX_IRQHandler
+                        0x08003ef5         Code  Wk  startup_stm32f10x_md.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x08003db5   0x2c  Code  Gb  stm32f10x_it.o [1]
+UsageFault_Handler      0x08003da5    0x2  Code  Gb  stm32f10x_it.o [1]
+WWDG_IRQHandler         0x08003ea9         Code  Wk  startup_stm32f10x_md.o [1]
+__aeabi_cfcmple         0x08001a8d         Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x08001ab1         Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x08002c11         Code  Gb  DblToFlt.o [4]
+__aeabi_ddiv            0x080029c9         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08002825         Code  Gb  DblMul.o [4]
+__aeabi_f2d             0x080027d5         Code  Gb  FltToDbl.o [4]
+__aeabi_memclr4         0x08001ad5         Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy          0x080030ed         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08003107         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x08003107         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset4         0x080030b5         Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x080030b5         Code  Gb  ABImemset48.o [5]
+__aeabi_ui2f            0x080027b9         Code  Gb  I32ToFlt.o [4]
+__cmain                 0x08003e35         Code  Gb  cmain.o [5]
+__exit                  0x08003e65   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x080030bd         Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x080030bd         Code  Gb  ABImemset48.o [5]
+__iar_copy_init3        0x0800199b   0x2e  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08003de5   0x2c  Code  Gb  data_init3.o [5]
+__iar_program_start     0x08003e79         Code  Gb  cstartup_M.o [5]
+__iar_ui2f              0x080027bb         Code  Gb  I32ToFlt.o [4]
+__iar_zero_init3        0x08001adb   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08003e4b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f10x_md.o [1]
+_call_main              0x08003e41         Code  Gb  cmain.o [5]
+_exit                   0x08003e59         Code  Gb  cexit.o [5]
+_main                   0x08003e47         Code  Gb  cmain.o [5]
+canSendQueue            0x20000468    0xc  Data  Gb  can.o [1]
+canSendQueueBuff        0x20000018  0x2bc  Data  Gb  can.o [1]
+can_bus_frame_receive   0x08001c81  0x1b8  Code  Gb  can.o [1]
+can_bus_send_msg        0x08001e39   0xdc  Code  Gb  can.o [1]
+can_bus_send_one_frame  0x08001b55   0x64  Code  Gb  can.o [1]
+can_recv_buff           0x200002d4  0x12c  Data  Gb  can.o [1]
+can_recv_len            0x2000050c    0x2  Data  Gb  can.o [1]
+can_recv_set_para       0x08001f5f   0xe6  Code  Gb  can.o [1]
+can_reply_read_para     0x08002085  0x20a  Code  Gb  can.o [1]
+can_reply_set_para      0x08002045   0x40  Code  Gb  can.o [1]
+can_send_frame_process  0x08001f15   0x4a  Code  Gb  can.o [1]
+canbus_recv_can_msg     0x08001c63   0x1e  Code  Gb  can.o [1]
+canbus_recv_start_cmd   0x08001bf1   0x72  Code  Gb  can.o [1]
+cansend_framecnt_one    0x20000014    0x2  Data  Gb  moto.o [1]
+cansend_framecnt_two    0x20000016    0x2  Data  Gb  moto.o [1]
+delay                   0x08003d81   0x1c  Code  Lc  stm32f10x_flash.o [1]
+exit                    0x08003e4f    0x8  Code  Gb  exit.o [3]
+flash_init              0x08002ca1  0x2dc  Code  Gb  flash.o [1]
+flash_upload_flag       0x20000510    0x2  Data  Gb  flash.o [1]
+flash_upload_write_buff
+                        0x08002fb9   0xce  Code  Gb  flash.o [1]
+flash_write_buff        0x08002f7d   0x3c  Code  Gb  flash.o [1]
+g_SegBytes              0x2000050e    0x2  Data  Gb  can.o [1]
+g_SegNum                0x20000519    0x1  Data  Gb  can.o [1]
+g_SegPolo               0x20000518    0x1  Data  Gb  can.o [1]
+g_alarm_flag            0x2000051d    0x1  Data  Gb  gpio.o [1]
+gpio_Led_Blink_Handle   0x08000c95  0x15e  Code  Gb  gpio.o [1]
+gpio_Led_Set_Mode       0x08000ba7   0xe4  Code  Gb  gpio.o [1]
+gpio_handleInputScan    0x080000ed  0xaba  Code  Gb  gpio.o [1]
+input_dip_dir           0x200004e0    0xc  Data  Gb  gpio.o [1]
+input_dip_mod           0x200004ec    0xc  Data  Gb  gpio.o [1]
+input_dip_speed         0x200004d4    0xc  Data  Gb  gpio.o [1]
+input_in1_1             0x20000474    0xc  Data  Gb  gpio.o [1]
+input_in1_2             0x20000480    0xc  Data  Gb  gpio.o [1]
+input_in2_1             0x2000048c    0xc  Data  Gb  gpio.o [1]
+input_in2_2             0x20000498    0xc  Data  Gb  gpio.o [1]
+input_mot1_alarm        0x200004bc    0xc  Data  Gb  gpio.o [1]
+input_mot2_alarm        0x200004c8    0xc  Data  Gb  gpio.o [1]
+input_x1                0x200004a4    0xc  Data  Gb  gpio.o [1]
+input_x2                0x200004b0    0xc  Data  Gb  gpio.o [1]
+led_blink_cnt           0x20000512    0x2  Data  Gb  gpio.o [1]
+led_mot1_blk_mode       0x2000051b    0x1  Data  Gb  gpio.o [1]
+led_mot2_blk_mode       0x2000051c    0x1  Data  Gb  gpio.o [1]
+led_status_blk_mode     0x2000051a    0x1  Data  Gb  gpio.o [1]
+localStation            0x2000051e    0x1  Data  Gb  gpio.o [1]
+main                    0x080019fd   0x14  Code  Gb  main.o [1]
+main_init_process       0x08001a2d   0x1c  Code  Gb  main.o [1]
+main_onems_process      0x08001a49   0x2e  Code  Gb  main.o [1]
+memcpy                  0x0800315d    0xe  Code  Gb  can.o [1]
+mot1_info               0x20000438   0x18  Data  Gb  moto.o [1]
+mot2_info               0x20000450   0x18  Data  Gb  moto.o [1]
+moto_set_run_cmd        0x0800170b   0xa6  Code  Gb  moto.o [1]
+moto_upload_moudle_status
+                        0x080015e7  0x124  Code  Gb  moto.o [1]
+motolocal               0x20000400   0x1c  Data  Gb  flash.o [1]
+mototemp                0x2000041c   0x1c  Data  Gb  flash.o [1]
+moudle1_info            0x200004f8    0x8  Data  Gb  moto.o [1]
+moudle2_info            0x20000500    0x8  Data  Gb  moto.o [1]
+msone_flag              0x2000051f    0x1  Data  Gb  main.o [1]
+para_data_recv_process  0x08001bb9   0x38  Code  Gb  can.o [1]
+ramp_delay              0x20000514    0x2  Data  Gb  moto.o [1]
+upload_state_cnt        0x20000516    0x2  Data  Gb  moto.o [1]
+
+
+[1] = E:\rollerconveyor\rollerconveyerv1.0.0.2\EXP_ROLLER_CTRL_SLAVER_V1.0.0.1\Project\EWARMv5\STM3210C-EVAL\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  16 176 bytes of readonly  code memory
+      60 bytes of readonly  data memory
+   5 408 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
